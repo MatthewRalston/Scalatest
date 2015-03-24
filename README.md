@@ -1,16 +1,17 @@
 # README
 
-
-* Compile
-
+Start a new project:
 ```
-scalac -d classes/ MyProgram.scala
+g8 gayimora/basic-scala-project
 ```
-
-* Execute (Class name)
-
+OR
 ```
-scala -classpath classes MyProgram
+scalaProject (local alias)
 ```
 
 
+Run the command:
+
+```
+sbt "run <args>"
+```
